@@ -8,8 +8,8 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const [email, setEmail] = useState("");
 
-  const sendEmail = (e:any) => {
-    e.preventDefault();
+  const sendEmail = (e:unknown) => {
+    e
 
     emailjs
       .send("service_p7yef4r", "template_ar7qpoi", { email }, "Hamza Nasir")

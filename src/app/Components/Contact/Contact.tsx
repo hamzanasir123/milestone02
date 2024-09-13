@@ -22,8 +22,8 @@ const Contact = () => {
         }
       );
   };
-  return (
-    <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+  return ( 
+    <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 bg-black">
       <StyledWrapper>
       <div className="subscribe" id="Contact">
         <p>SUBSCRIBE</p>

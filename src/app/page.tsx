@@ -1,4 +1,3 @@
-import About from "./Components/About/About";
 import { BackgroundLines } from "./ui/background-lines";
 export default function Home() {
   return (

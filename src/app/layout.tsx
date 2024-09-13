@@ -1,7 +1,6 @@
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import { BackgroundLines } from "./ui/background-lines";
 import "./globals.css";
 import About from "./Components/About/About";
 

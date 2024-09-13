@@ -14,7 +14,7 @@ const Contact = () => {
     emailjs
       .send("service_p7yef4r", "template_ar7qpoi", { email }, "Hamza Nasir")
       .then(
-        (response) => {
+        () => {
           alert("Subscription successful!");
         },
         (err) => {
